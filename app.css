@@ -1,0 +1,23 @@
+* {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+	color: darkcyan;
+	font-size: 20px;
+}
+
+#ai-photo {
+	width: 300px;
+}
+
+.special {
+	border: 1px solid teal;
+	color: teal;
+	font-size: 30px;
+}
+
+input[type='password'] {
+	height: 50px;
+	width: 100px;
+}
