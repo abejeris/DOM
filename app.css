@@ -2,43 +2,10 @@
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-h1 {
-	color: darkcyan;
-	font-size: 20px;
-	/* border: 1px solid red; */
+.winner {
+	background-color: green;
 }
 
-#ai-photo {
-	width: 300px;
-}
-
-.special {
-	border: 1px solid teal;
-	color: teal;
-	font-size: 30px;
-}
-
-input[type='password'] {
-	height: 50px;
-	width: 100px;
-}
-
-#outer {
-	width: 200px;
-	height: 200px;
-	border: 1px solid black;
-	border-radius: 50%;
-	position: relative;
-}
-
-#inner {
-	width: 1px;
-	height: 50%;
-	top: 50%;
-	left: 50%;
-	background-color: aquamarine;
-	position: absolute;
-	border-left: 1px solid red;
-	/* transform: rotate(50deg); */
-	transform-origin: 0% 0%;
+.looser {
+	background-color: red;
 }
